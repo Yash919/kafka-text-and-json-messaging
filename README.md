@@ -34,9 +34,11 @@ Endpoint: POST `http://localhost:8080/api/v1/kafka/publish`
 - **KafkaConsumer**: Consumes plain text messages and logs them.
 - **JsonKafkaConsumer**: Consumes JSON User objects and logs them.
 
-
 ## Run Kafka ( Default port number: 9092 )
 - Start Zookeeper: Open a terminal and run the following command:
 `bin/zookeeper-server-start.sh config/zookeeper.properties` 
 - Start Kafka Server: `bin/kafka-server-start.sh config/server.properties`
 - Consume message: `bin/kafka-console-consumer.sh --topic {topic-name} --from-beginning --bootstrap-server localhost:9092`
+
+# Credits
+**This project was created by Yash Mehta 🚀**
